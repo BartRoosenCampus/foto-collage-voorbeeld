@@ -8,13 +8,18 @@ h1 {
     margin-top: 1em;
 }
 
-p, li {
+p {
     padding: .5em 10%;
     line-height: 1.5em;
 }
 
-ul {
+nav ul {
     list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: .3em 1em;
 }
 
 .container {
