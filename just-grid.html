@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/just-grid.css">
+    <title>Foto collage voorbeeld</title>
+</head>
+<body>
+
+<div class="container">
+    <a href="./">Terug naar index</a>
+    <a href="./generator.html">Ga naar voorbeeld met grid generator</a>
+    <h1>Foto collage voorbeeld (met grid)</h1>
+    <div class="display-grid foto-collage column-gap-1em">
+        <div class="foto-container" id="left" aria-label="student" title="Student"></div>
+        <div class="display-grid right-container">
+            <div class="display-grid top-row column-gap-1em">
+                <div id="right-top-left" class="foto-container" aria-label="Books" title="Books"></div>
+                <div id="right-top-right" class="foto-container" aria-label="Mountain" title="Mountain"></div>
+            </div>
+            <div class="display-grid bottom-row column-gap-1em">
+                <div id="right-bottom-left" class="foto-container" aria-label="Highway" title="Highway"></div>
+                <div id="right-bottom-right" class="foto-container" aria-label="Woman" title="Woman"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

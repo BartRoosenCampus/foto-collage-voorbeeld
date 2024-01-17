@@ -5,6 +5,16 @@
 
 h1 {
     padding: 0 0 1em 0;
+    margin-top: 1em;
+}
+
+p, li {
+    padding: .5em 10%;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .container {
@@ -13,34 +23,13 @@ h1 {
     min-height: 35em;
 }
 
-.display-grid {
-    display: grid;
-}
-
-.column-gap-1em {
-    column-gap: 1em;
-}
-
-.foto-collage {
-    grid-template-columns: 7fr 3fr;
-    min-height: 35em;
-}
-
-.right-container {
-    row-gap: 1em;
-}
-
-.top-row {
-    grid-template-columns: 4fr 6fr;
-}
-
-.bottom-row {
-    grid-template-columns: 6fr 4fr;
+.foto-container {
+    background-size: cover;
+    background-position: center;
 }
 
 #left {
     background-image: url("../img/left.png");
-    background-size: cover;
 }
 
 #right-top-left {
@@ -57,9 +46,4 @@ h1 {
 
 #right-bottom-right {
     background-image: url("../img/right-bottom-right.png");
-}
-
-.foto-container {
-    background-size: cover;
-    background-position: center;
 }

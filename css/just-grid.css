@@ -1,0 +1,24 @@
+.display-grid {
+    display: grid;
+}
+
+.column-gap-1em {
+    column-gap: 1em;
+}
+
+.foto-collage {
+    grid-template-columns: 7fr 3fr;
+    min-height: 35em;
+}
+
+.right-container {
+    row-gap: 1em;
+}
+
+.top-row {
+    grid-template-columns: 4fr 6fr;
+}
+
+.bottom-row {
+    grid-template-columns: 6fr 4fr;
+}
